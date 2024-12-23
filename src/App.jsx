@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
 import gsap from 'gsap'
 import './App.css'
 import HomePage from './HomePage'
-import OrderOnline from './pages/OrderOnline'
-import MenuPage from './pages/MenuPage'
+import OrderOnline from './pages/OrderOnline' 
 import BookTable from './pages/BookTable'
+ import Menupage from './pages/Menupage'
 
 export default function App () {
   const menuItemsRef = useRef([])
@@ -111,7 +111,7 @@ export default function App () {
       <div id='main-content'>
         <Routes>
           <Route path='/' element={<HomePage />} />
-          <Route path='/menu' element={<MenuPage />} />
+          <Route path='/menu' element={<Menupage />} />
           <Route path='/order-online' element={<OrderOnline />} />
           <Route path='/book-table' element={<BookTable />} />
         </Routes>
