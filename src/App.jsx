@@ -48,7 +48,7 @@ export default function App () {
           {/* Logo */}
           <div className='flex justify-center mx-4 nav-item'>
             <div className='font-bold text-xl logo'>
-              <img src='./public/logo.svg' alt='Logo' />
+              <img src='/logo.svg' alt='Logo' />
             </div>
           </div>
 
