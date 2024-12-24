@@ -864,6 +864,10 @@ video {
   background-image: url('./catagory-img1.png');
 }
 
+.bg-\[url\(\'\/catagory-img1\.png\'\)\]{
+  background-image: url('/catagory-img1.png');
+}
+
 .bg-cover{
   background-size: cover;
 }

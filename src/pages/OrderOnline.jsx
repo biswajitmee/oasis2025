@@ -35,7 +35,7 @@ function OrderOnline () {
         <div className='gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
           <div className='foodItem'>
             <div className='grid grid-cols-9'>
-              <div className="col-span-3 bg-[url('./catagory-img1.png')] bg-cover bg-center bg-origin-border"></div>
+              <div className="col-span-3 bg-[url('/catagory-img1.png')] bg-cover bg-center bg-origin-border"></div>
               <div className='col-span-6 px-3 py-2'>
                 <div className='dishTittle'>Paneer Butter Masala</div>
                 <div className='grid grid-cols-2 py-4'>
@@ -65,7 +65,7 @@ function OrderOnline () {
 
           <div className='foodItem'>
             <div className='grid grid-cols-9'>
-              <div className="col-span-3 bg-[url('./catagory-img1.png')] bg-cover bg-center bg-origin-border"></div>
+              <div className="col-span-3 bg-[url('/catagory-img1.png')] bg-cover bg-center bg-origin-border"></div>
               <div className='col-span-6 px-3 py-2'>
                 <div className='dishTittle'>Paneer Butter Masala</div>
                 <div className='grid grid-cols-2 py-4'>
@@ -95,7 +95,7 @@ function OrderOnline () {
 
           <div className='foodItem'>
             <div className='grid grid-cols-9'>
-              <div className="col-span-3 bg-[url('./catagory-img1.png')] bg-cover bg-center bg-origin-border"></div>
+              <div className="col-span-3 bg-[url('/catagory-img1.png')] bg-cover bg-center bg-origin-border"></div>
               <div className='col-span-6 px-3 py-2'>
                 <div className='dishTittle'>Paneer Butter Masala</div>
                 <div className='grid grid-cols-2 py-4'>
@@ -125,7 +125,7 @@ function OrderOnline () {
 
           <div className='foodItem'>
             <div className='grid grid-cols-9'>
-              <div className="col-span-3 bg-[url('./catagory-img1.png')] bg-cover bg-center bg-origin-border"></div>
+              <div className="col-span-3 bg-[url('/catagory-img1.png')] bg-cover bg-center bg-origin-border"></div>
               <div className='col-span-6 px-3 py-2'>
                 <div className='dishTittle'>Paneer Butter Masala</div>
                 <div className='grid grid-cols-2 py-4'>
@@ -159,7 +159,7 @@ function OrderOnline () {
         <div className="crossIcon">X</div>
         <div className='foodItem'>
           <div className='grid grid-cols-9'>
-            <div className="col-span-3 bg-[url('./catagory-img1.png')] bg-cover bg-center bg-origin-border"></div>
+            <div className="col-span-3 bg-[url('/catagory-img1.png')] bg-cover bg-center bg-origin-border"></div>
             <div className='col-span-6 px-3 py-2'>
               <div className='text-2xl dishTittle'>Paneer Butter Masala</div>
               <div className='grid grid-cols-4 pt-4'>

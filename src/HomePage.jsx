@@ -68,7 +68,7 @@ export default function HomePage() {
                 <div className="gap-4 grid grid-cols-1 md:grid-cols-3">
                   {/* Left Dish */}
                   <div className="md:flex justify-end items-center hidden">
-                    <img src="./public/left-dish.png" alt="Left Dish" />
+                    <img src="/left-dish.png" alt="Left Dish" />
                   </div>
 
                   {/* Testimonial Carousel */}
@@ -80,7 +80,7 @@ export default function HomePage() {
 
                   {/* Right Dish */}
                   <div className="md:flex justify-start items-center hidden">
-                    <img src="./public/right-dish.png" alt="Right Dish" />
+                    <img src="/right-dish.png" alt="Right Dish" />
                   </div>
                 </div>
               </div>
