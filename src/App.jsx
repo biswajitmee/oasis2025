@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
 import gsap from 'gsap'
 import './App.css'
 import HomePage from './HomePage'
-import OrderOnline from './pages/OrderOnline' 
+import OrderOnline from './pages/OrderOnline'
 import BookTable from './pages/BookTable'
- import Menupage from './pages/Menupage'
+import Menupage from './pages/Menupage'
 
 export default function App () {
   const menuItemsRef = useRef([])
@@ -48,7 +48,9 @@ export default function App () {
           {/* Logo */}
           <div className='flex justify-center mx-4 nav-item'>
             <div className='font-bold text-xl logo'>
-              <img src='/logo.svg' alt='Logo' />
+              <Link to='/'>
+                <img src='/logo.svg' alt='Logo' />
+              </Link>
             </div>
           </div>
 

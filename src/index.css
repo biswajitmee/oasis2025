@@ -14,7 +14,7 @@ html {
     height: 100vh;
     width: 100vw;
     background-color: rgba(16, 16, 16, 1);
-    background-image: url('/public/background.png');
+    background-image: url('/background.png');
     background-size: cover;
   }
 
@@ -83,7 +83,7 @@ html {
   }
 
   .testimonialComment {
-    background-image: url(/public/leaf.png);
+    background-image: url(/leaf.png);
   }
 
   .spinch {
