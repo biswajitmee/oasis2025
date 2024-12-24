@@ -35,8 +35,7 @@ export default function HomePage() {
       pin: true, // Pin the section in place
       start: 'top top', // Pinning starts when the top of the heroSection hits the top of the viewport
       end: '+=2500', // Adjust for how long you want the section to stay pinned
-      scrub: true, // Smooth scrolling effect
-      markers: true, // Add markers for debugging (remove this in production)
+      scrub: true, // Smooth scrolling effect      
     });
 
     return () => {
