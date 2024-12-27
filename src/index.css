@@ -54,21 +54,14 @@ html {
     z-index: 9;
     margin-top: -55vh;
     position: relative;
-    /* background-image: url(./public/whiteCurve.svg);
-    width: 100vw;
-    background-position: center center; */
   }
 
   .testimonialbg {
     position: relative;
     width: 100vw;
-    /* Full viewport width */
     height: 90vh;
-    /* Full viewport height */
     background: #c76801;
-    /* Background color */
     --c: 99.5;
-    /* Control the curvature */
     mask: radial-gradient(
       calc(var(--c) * 1%) 100% at 50% calc(-100% * cos(asin(50 / var(--c)))),
       #0000 calc(100% - 1px),
@@ -117,7 +110,7 @@ html {
   .navbar {
     margin-top: 30px;
     height: 50px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 1);
     width: 100%;
     z-index: 9;
     position: fixed;
@@ -137,26 +130,28 @@ html {
     min-height: 100vh;
   }
   .catagoryRow {
-    padding-top: 100px;
+    padding: 5px;    
+    margin-top: 100px;
     position: fixed;
     width: 100vw;
+    background-color: #3d3900;
+    z-index: 999;
   }
   .catagoryItem {
     padding: 5px 23px;
-    background-color: rgb(54, 54, 54, 0.7);
-    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.8);   
     border-radius: 50px;
   }
   .catagoryName {
     text-align: center;
-    color: #c8c8c8;
+    color: #c8c8c8b8;
   }
 
   .dishList {
-    max-width: 1024px;
-    height: 800px;
+    max-width: 1024px; 
     margin: auto;
-    padding-top: 150px;
+    padding-top:200px;
+ 
   }
 
   .foodItem {
@@ -164,14 +159,33 @@ html {
     background-color: rgb(82, 82, 82, 0.6);
     overflow: hidden;
     border-radius: 12px;
+    color: #a8a8a8;
+  }
+
+  .popup_foodItem {
+    min-width: 320px;
+    background-color: rgba(24, 24, 24, 1);
+    overflow: hidden;
+    border-radius: 12px;
     color: #d6d6d6;
   }
+
+  .popupBg {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(28, 28, 28);
+    top: 0;
+    left: 0;
+  }
+
   .popup {
-    max-width: 800px;
-    margin: auto;
+    width: 620px;   
     padding: 10px;
-    position: relative;
-    overflow: hidden;
+    position: absolute;
+    top: 25vh;
+    left: calc(100vw/2 - 620px/2);   
   }
 
   .topinslist div {
@@ -214,4 +228,22 @@ html {
     border-top-right-radius: 12px;
     text-align: center;
   }
+  .ourstory {
+    min-height: 80vh;
+    width: 90vw;
+    margin: 50px auto;
+    border: 4px solid #000;
+    border-radius: 6px;
+    padding: 50px;
+  }
+
+  .bottomBar {
+    height: 50px;
+    width: 100vw;
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+  }
+
+ 
 }
