@@ -240,7 +240,7 @@ html {
   .bottomBar {
     height: 50px;
     width: 100vw;
-    background-color: red;
+    background-color: #3d3900;
     position: fixed;
     bottom: 0;
   }
